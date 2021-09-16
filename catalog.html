@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Котейка</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a><img src="https://via.placeholder.com/150?text=Логотип" alt="Логотип"></a>
+      <ul>
+        <li><a href="#">Почему мы?</a></li>
+        <li><a href="#">Номера</a></li>
+        <li><a href="#">Отзывы</a></li>
+        <li><a href="#">Как нас найти</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Фильтры</h2>
+      <form id="filters-form" class="filters-form" action="https://echo.htmlacademy.ru" method="get">
+        <fieldset>
+          <legend>Цена за сутки,Р</legend>
+          <label for="filters-form-from">Цена за сутки, от</label>
+          <input type="text" name="filters-form-from" id="filters-form-from" 
+          placeholder="от 100" value="100">
+          <label for="filters-form-to">Цена за сутки, до</label>
+          <input type="text" name="filters-form-to" id="filters-form-to" 
+          placeholder="от 100" value="100">
+        </fieldset>
+        <fieldset>
+          <legend>Площадь</legend>
+          <label for="filters-form-area-1">0,63 м<sup>2</sup></label>
+          <input type="checkbox" name="filters-form-area" id="filters-form-area-1">
+          <label for="filters-form-area-2">0,90 м<sup>2</sup></label>
+          <input type="checkbox" name="filters-form-area" id="filters-form-area-2">
+          <label for="filters-form-area-3">1,13 м<sup>2</sup></label>
+          <input type="checkbox" name="filters-form-area" id="filters-form-area-3">
+          <label for="filters-form-area-4">1,56 м<sup>2</sup></label>
+          <input type="checkbox" name="filters-form-area" id="filters-form-area-4">
+          <label for="filters-form-area-5">2,56 м<sup>2</sup></label>
+          <input type="checkbox" name="filters-form-area" id="filters-form-area-5">
+          <label for="filters-form-area-6">2,88 м<sup>2</sup></label>
+          <input type="checkbox" name="filters-form-area" id="filters-form-area-6">
+        </fieldset>
+        <fieldset>
+          <legend>Оснащение номера</legend>
+          <label for="filters-form-equipment-1">Пустой номер<sup>2</sup></label>
+          <input type="checkbox" name="filters-form-equipment" id="filters-form-equipment-1">
+          <label for="filters-form-equipment-2">Лежак<sup>2</sup></label>
+          <input type="checkbox" name="filters-form-equipment" id="filters-form-equipment-2">
+          <label for="filters-form-equipment-3">Когтеточка<sup>2</sup></label>
+          <input type="checkbox" name="filters-form-equipment" id="filters-form-equipment-3">
+          <label for="filters-form-equipment-4">Игровой-комплекс<sup>2</sup></label>
+          <input type="checkbox" name="filters-form-equipment" id="filters-form-equipment-4">
+          <label for="filters-form-equipment-5">Домик<sup>2</sup></label>
+          <input type="checkbox" name="filters-form-equipment" id="filters-form-equipment-5">
+        </fieldset>
+        <button type="reset">Сбросить фильтр</button>
+      </form>
+    </section>
+    <section>
+      <h2>Каталог</h2>
+      <a href="#">По площади</a>
+      <ul>
+        <li>
+          <h3>Эконом</h3>
+          <img src="" alt="">
+          <dl>
+            <dt>Размеры (ШхГхВ)</dt>
+            <dd>90x170x180 см</dd>
+            <dt>Площадь</dt>
+            <dd>0,63 м<sup>2</sup></dd>
+            <dt>Оснащение номера</dt>
+            <dd>
+              <ul>
+                <li>Пустой номер</li>
+              </ul>
+            </dd>
+            <dt>Цена за сутки</dt>
+            <dd>100 Р.</dd>
+          </dl>
+          <a href="#">Забронировать</a>
+        </li>
+        <li>
+          <h3>Эконом плюс</h3>
+          <img src="" alt="">
+          <dl>
+            <dt>Размеры (ШхГхВ)</dt>
+            <dd>90х100х180 см</dd>
+            <dt>Площадь</dt>
+            <dd>0,9 м<sup>2</sup></dd>
+            <dt>Оснащение номера</dt>
+            <dd>
+              <ul>
+                <li>Лежак</li>
+                <li>Когтеточка</li>
+              </ul>
+            </dd>
+            <dt>Цена за сутки</dt>
+            <dd>200 Р.</dd>
+          </dl>
+          <a href="#">Забронировать</a>
+        </li>
+        <li>
+          <h3>Комфорт</h3>
+          <img src="" alt="">
+          <dl>
+            <dt>Размеры (ШхГхВ)</dt>
+            <dd>100x125x180 см</dd>
+            <dt>Площадь</dt>
+            <dd>1,13 м<sup>2</sup></dd>
+            <dt>Оснащение номера</dt>
+            <dd>
+              <ul>
+                <li>Лежак</li>
+                <li>Когтеточка</li>
+                <li>Игровой-комплекс</li>
+              </ul>
+            </dd>
+            <dt>Цена за сутки</dt>
+            <dd>250 Р.</dd>
+          </dl>
+          <a href="#">Забронировать</a>
+        </li>
+        <li>
+          <h3>Сьют</h3>
+          <img src="" alt="">
+          <dl>
+            <dt>Размеры (ШхГхВ)</dt>
+            <dd>125x125x180 см</dd>
+            <dt>Площадь</dt>
+            <dd>1,56 м<sup>2</sup></dd>
+            <dt>Оснащение номера</dt>
+            <dd>
+              <ul>
+                <li>Лежак</li>
+                <li>Когтеточка</li>
+                <li>Игровой-комплекс</li>
+              </ul>
+            </dd>
+            <dt>Цена за сутки</dt>
+            <dd>350 Р.</dd>
+          </dl>
+          <a href="#">Забронировать</a>
+        </li>
+        <li>
+          <h3>Люкс</h3>
+          <img src="" alt="">
+          <dl>
+            <dt>Размеры (ШхГхВ)</dt>
+            <dd>160x160x180 см</dd>
+            <dt>Площадь</dt>
+            <dd>2,56 м<sup>2</sup></dd>
+            <dt>Оснащение номера</dt>
+            <dd>
+              <ul>
+                <li>Лежак</li>
+                <li>Когтеточка</li>
+                <li>Игровой-комплекс</li>
+                <li>Домик</li>
+              </ul>
+            </dd>
+            <dt>Цена за сутки</dt>
+            <dd>500 Р.</dd>
+          </dl>
+          <a href="#">Забронировать</a>
+        </li>
+        <li>
+          <h3>Супер-Люкс</h3>
+          <img src="" alt="">
+          <dl>
+            <dt>Размеры (ШхГхВ)</dt>
+            <dd>180x160x180 см</dd>
+            <dt>Площадь</dt>
+            <dd>2,88 м<sup>2</sup></dd>
+            <dt>Оснащение номера</dt>
+            <dd>
+              <ul>
+                <li>Лежак</li>
+                <li>Когтеточка</li>
+                <li>Игровой-комплекс</li>
+                <li>Домик</li>
+              </ul>
+            </dd>
+            <dt>Цена за сутки</dt>
+            <dd>600 Р.</dd>
+          </dl>
+          <a href="#">Забронировать</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Акция</h2>
+      <p>Каждый 7-й день <strong>бесплатно!</strong></p>
+      <p>Акция действует при размещении в номерах "Люкс" и "Супер-Люкс</p>
+      <a href="#">Забронировать</a>
+    </section>
+  </main>
+  <footer>
+    <section>
+      <h2>Как нас найти</h2>
+      <dl>
+        <dt>Адрес</dt>
+        <dd>Санкт-Петербург, ул Большая Конушенная, д 19</dd>
+        <dt>Режим работы</dt>
+        <dd>Ежедневно, с 9:00 до 20:00</dd>
+        <dt>Телефон</dt>
+        <dd><a href="tel:+78003335599">8 (800) 333-55-99</a></dd>
+        <dt>E-mail</dt>
+        <dd><a href="email:info@cat-hotel.ru">info@cat-hotel.ru</a></dd>
+        <dt>Социальные сети</dt>
+        <dd>
+          <ul>
+            <li>
+              <a href="#">Facebook</a>
+            </li>
+            <li>
+              <a href="#">Instagram</a>
+            </li>
+            <li>
+              <a href="#">Vkontakte</a>
+            </li>
+          </ul>
+        </dd>
+      </dl>
+      <img src="" alt="Карта">
+    </section>
+    <section>
+      <h2>Дополнительная навигация по сайту</h2>
+      <a href="#"><img src="" alt="Логотип"></a>
+      <ul>
+        <li><a href="#">Почему мы?</a></li>
+        <li><a href="#">Номера</a></li>
+        <li><a href="#">Отзывы</a></li>
+        <li><a href="#">Как нас найти</a></li>
+      </ul>
+      <p>2019 Все права защищены</p>
+    <a href="#">Политика конфеденциальности</a>
+    </section>
+  </footer>
+</body>
+</html>
